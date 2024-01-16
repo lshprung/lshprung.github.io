@@ -7,10 +7,10 @@ Dash docsets maintained by me include:
 
 - [debmake](https://github.com/lshprung/debmake-dash-docset) ([upstream](https://salsa.debian.org/debian/debmake))
 - [flex](https://github.com/lshprung/flex-dash-docset) ([upstream](https://github.com/westes/flex))
-- [GNU Autoconf](https://github.com/lshprung/gnu-autoconf-dash-docset) ([upstream](https://www.gnu.org/software/autoconf/))
-- [GNU Autoconf Archive](https://github.com/lshprung/gnu-autoconf-archive-dash-docset) ([upstream](https://www.gnu.org/software/autoconf-archive/)) **^** 
+- [GNU Autoconf](https://github.com/lshprung/gnu-autoconf-dash-docset) ([upstream](https://www.gnu.org/software/autoconf/)) **^**2.72
+- [GNU Autoconf Archive](https://github.com/lshprung/gnu-autoconf-archive-dash-docset) ([upstream](https://www.gnu.org/software/autoconf-archive/))
 - [GNU Automake](https://github.com/lshprung/gnu-automake-dash-docset) ([upstream](https://www.gnu.org/software/automake/))
-- [GNU Bison](https://github.com/lshprung/gnu-bison-dash-docset) ([upstream](https://www.gnu.org/software/bison/)) **^**
+- [GNU Bison](https://github.com/lshprung/gnu-bison-dash-docset) ([upstream](https://www.gnu.org/software/bison/)) **^**3.8.2
 - [GNU Coding Standards](https://github.com/lshprung/gnu-coding-standards-dash-docset) ([upstream](https://savannah.gnu.org/projects/gnustandards)) \*
 - [GNU Guile](https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/GNU_Guile) 3+ ([upstream](https://www.gnu.org/software/guile/))
 - [GNU Libtool](https://github.com/lshprung/gnu-libtool-dash-docset) ([upstream](https://www.gnu.org/software/libtool/)) \*
