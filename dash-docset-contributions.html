@@ -1,0 +1,40 @@
+<h2 id="dashzeal-docset-contributions"><a href="https://kapeli.com/dash">Dash</a>/<a href="https://zealdocs.org/">Zeal</a> Docset Contributions</h2>
+<p>I package docsets for documentation generally unavailable through Dash/Zeal docsets.</p>
+<p>My Dash docsets are based on a common <a href="https://github.com/lshprung/dash-docset-generation-template">generation template</a>. <br>Dash docsets maintained by me include:</p>
+<ul>
+<li><a href="https://github.com/lshprung/debmake-dash-docset">debmake</a> (<a href="https://salsa.debian.org/debian/debmake">upstream</a>)</li>
+<li><a href="https://github.com/lshprung/flex-dash-docset">flex</a> (<a href="https://github.com/westes/flex">upstream</a>)</li>
+<li><a href="https://github.com/lshprung/gnu-autoconf-dash-docset">GNU Autoconf</a> (<a href="https://www.gnu.org/software/autoconf/">upstream</a>)</li>
+<li><a href="https://github.com/lshprung/gnu-autoconf-archive-dash-docset">GNU Autoconf Archive</a> (<a href="https://www.gnu.org/software/autoconf-archive/">upstream</a>) <strong>^</strong> </li>
+<li><a href="https://github.com/lshprung/gnu-automake-dash-docset">GNU Automake</a> (<a href="https://www.gnu.org/software/automake/">upstream</a>)</li>
+<li><a href="https://github.com/lshprung/gnu-bison-dash-docset">GNU Bison</a> (<a href="https://www.gnu.org/software/bison/">upstream</a>) <strong>^</strong></li>
+<li><a href="https://github.com/lshprung/gnu-coding-standards-dash-docset">GNU Coding Standards</a> (<a href="https://savannah.gnu.org/projects/gnustandards">upstream</a>) *</li>
+<li><a href="https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/GNU_Guile">GNU Guile</a> 3+ (<a href="https://www.gnu.org/software/guile/">upstream</a>)</li>
+<li><a href="https://github.com/lshprung/gnu-libtool-dash-docset">GNU Libtool</a> (<a href="https://www.gnu.org/software/libtool/">upstream</a>) *</li>
+<li><a href="https://github.com/lshprung/meson-dash-docset">Meson</a> (<a href="https://mesonbuild.com/index.html">upstream</a>)</li>
+<li><a href="https://github.com/lshprung/ncurses-dash-docset">ncurses</a> (<a href="https://invisible-island.net/ncurses/">upstream</a>)</li>
+</ul>
+<p>* indicates that the docset creation script could use improvement, usually in indexing index entries <br><strong>^</strong> indicates that a new version needs to be packaged, uploaded to the releases tab of the repo, and pushed to Dash-User-Contributions</p>
+<p>I also have several unofficial Dash docsets that I maintain, but do not intend to contribute to <a href="https://github.com/Kapeli/Dash-User-Contributions">Dash-User-Contributions</a>, usually because my docset diverges from one that was already contributed or there is already an official version of the docset:</p>
+<ul>
+<li><a href="https://github.com/lshprung/gnu-bash-dash-docset">GNU Bash</a> (<a href="https://www.gnu.org/software/bash/">upstream</a>)</li>
+<li><a href="https://github.com/lshprung/gnu-libc-dash-docset">GNU C Library (or &quot;glibc&quot;)</a> (<a href="https://www.gnu.org/software/libc/libc.html">upstream</a>)</li>
+</ul>
+<p>Additional docsets I have desire to package in the future include:</p>
+<ul>
+<li>GNU Binutils (<a href="https://www.gnu.org/software/binutils/">upstream</a>)</li>
+<li>GNU Coreutils (<a href="https://www.gnu.org/software/coreutils/">upstream</a>) <a href="https://github.com/lshprung/gnu-coreutils-dash-docset">WIP</a></li>
+<li>GNU Grub (4 docsets) (<a href="https://www.gnu.org/software/grub/">upstream</a>) <a href="https://github.com/lshprung/gnu-grub-dash-docset">WIP</a></li>
+<li>GNU Guix (<a href="https://guix.gnu.org/">upstream</a>)</li>
+<li>GNU Texinfo (2 docsets) (<a href="https://www.gnu.org/software/texinfo/">upstream</a>) <a href="https://github.com/lshprung/gnu-texinfo-dash-docset">WIP</a></li>
+<li>NSIS (<a href="https://nsis.sourceforge.io/">upstream</a>) <a href="https://github.com/lshprung/nsis-dash-docset">WIP</a></li>
+</ul>
+<p>&quot;WIP&quot; indicates that some working model exists, but has not yet been successfully pushed to Dash-User-Contributions</p>
+<hr>
+<h4 id="regarding-gnu-project-docsets">Regarding GNU project docsets</h4>
+<p>It has been tiring to manage the high redundancy of the code in my various docset generation repos. This is especially true among GNU project docsets, and I believe it would be beneficial to contain all of these in a single repo. A few things to note:</p>
+<ol>
+<li>I would have to find a different solution to uploading compiled docsets, since I currently use the &quot;releases&quot; page of each repo. Github Pages, maybe?</li>
+<li>There are certain edge cases in certain repos that may make things annoying. I would either have to account for these on a case by case basis or build a better infrastructure.</li>
+</ol>
+<p>For now, this remains an idea that I will need to brainstorm further...</p>
