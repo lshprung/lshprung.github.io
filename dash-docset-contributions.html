@@ -1,35 +1,134 @@
 <h2 id="dashzeal-docset-contributions"><a href="https://kapeli.com/dash">Dash</a>/<a href="https://zealdocs.org/">Zeal</a> Docset Contributions</h2>
 <p>I package docsets for documentation generally unavailable through Dash/Zeal docsets.</p>
 <p>My Dash docsets are based on a common <a href="https://github.com/lshprung/dash-docset-generation-template">generation template</a>. <br>Dash docsets maintained by me include:</p>
-<ul>
-<li><a href="https://github.com/lshprung/debmake-dash-docset">debmake</a> (<a href="https://salsa.debian.org/debian/debmake">upstream</a>)</li>
-<li><a href="https://github.com/lshprung/flex-dash-docset">flex</a> (<a href="https://github.com/westes/flex">upstream</a>)</li>
-<li><a href="https://github.com/lshprung/gnu-autoconf-dash-docset">GNU Autoconf</a> (<a href="https://www.gnu.org/software/autoconf/">upstream</a>)</li>
-<li><a href="https://github.com/lshprung/gnu-autoconf-archive-dash-docset">GNU Autoconf Archive</a> (<a href="https://www.gnu.org/software/autoconf-archive/">upstream</a>)</li>
-<li><a href="https://github.com/lshprung/gnu-automake-dash-docset">GNU Automake</a> (<a href="https://www.gnu.org/software/automake/">upstream</a>)</li>
-<li><a href="https://github.com/lshprung/gnu-bison-dash-docset">GNU Bison</a> (<a href="https://www.gnu.org/software/bison/">upstream</a>) <strong>^</strong>3.8.2</li>
-<li><a href="https://github.com/lshprung/gnu-libc-dash-docset">GNU C Library (or &quot;glibc&quot;)</a> (<a href="https://www.gnu.org/software/libc/libc.html">upstream</a>)</li>
-<li><a href="https://github.com/lshprung/gnu-coding-standards-dash-docset">GNU Coding Standards</a> (<a href="https://savannah.gnu.org/projects/gnustandards">upstream</a>) *</li>
-<li><a href="https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/GNU_Guile">GNU Guile</a> 3+ (<a href="https://www.gnu.org/software/guile/">upstream</a>)</li>
-<li><a href="https://github.com/lshprung/gnu-libtool-dash-docset">GNU Libtool</a> (<a href="https://www.gnu.org/software/libtool/">upstream</a>) *</li>
-<li><a href="https://github.com/lshprung/meson-dash-docset">Meson</a> (<a href="https://mesonbuild.com/index.html">upstream</a>)</li>
-<li><a href="https://github.com/lshprung/ncurses-dash-docset">ncurses</a> (<a href="https://invisible-island.net/ncurses/">upstream</a>)</li>
-</ul>
-<p>* indicates that the docset creation script could use improvement, usually in indexing index entries <br><strong>^</strong> indicates that a new version needs to be packaged, uploaded to the releases tab of the repo, and pushed to Dash-User-Contributions</p>
-<p>I also have several unofficial Dash docsets that I maintain, but do not intend to contribute to <a href="https://github.com/Kapeli/Dash-User-Contributions">Dash-User-Contributions</a>, usually because my docset diverges from one that was already contributed or there is already an official version of the docset:</p>
-<ul>
-<li><a href="https://github.com/lshprung/gnu-bash-dash-docset">GNU Bash</a> (<a href="https://www.gnu.org/software/bash/">upstream</a>)</li>
-</ul>
-<p>Additional docsets I have desire to package in the future include:</p>
-<ul>
-<li>GNU Binutils (<a href="https://www.gnu.org/software/binutils/">upstream</a>)</li>
-<li>GNU Coreutils (<a href="https://www.gnu.org/software/coreutils/">upstream</a>) <a href="https://github.com/lshprung/gnu-coreutils-dash-docset">WIP</a></li>
-<li>GNU Grub (4 docsets) (<a href="https://www.gnu.org/software/grub/">upstream</a>) <a href="https://github.com/lshprung/gnu-grub-dash-docset">WIP</a></li>
-<li>GNU Guix (<a href="https://guix.gnu.org/">upstream</a>)</li>
-<li>GNU Texinfo (2 docsets) (<a href="https://www.gnu.org/software/texinfo/">upstream</a>) <a href="https://github.com/lshprung/gnu-texinfo-dash-docset">WIP</a></li>
-<li>NSIS (<a href="https://nsis.sourceforge.io/">upstream</a>) <a href="https://github.com/lshprung/nsis-dash-docset">WIP</a></li>
-</ul>
-<p>&quot;WIP&quot; indicates that some working model exists, but has not yet been successfully pushed to Dash-User-Contributions</p>
+<table>
+<thead>
+<tr>
+<th>Name (with link to generation upstream)</th>
+<th>Documentation Source Upstream</th>
+<th>Contributed to <a href="https://github.com/Kapeli/Dash-User-Contributions/tree/master">Dash-User-Contributions</a>?</th>
+<th>Relevant Debian Package</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><a href="https://github.com/lshprung/debmake-dash-docset">debmake</a></td>
+<td><a href="https://salsa.debian.org/debian/debmake">https://salsa.debian.org/debian/debmake</a></td>
+<td><a href="https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/debmake">Yes</a></td>
+<td><a href="https://packages.debian.org/unstable/debmake-doc">debmake-doc</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/lshprung/flex-dash-docset">flex</a></td>
+<td><a href="https://github.com/westes/flex">https://github.com/westes/flex</a></td>
+<td><a href="https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/Flex">Yes</a></td>
+<td><a href="https://packages.debian.org/unstable/flex-doc">flex-doc</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/lshprung/gnu-autoconf-dash-docset">GNU Autoconf</a></td>
+<td><a href="https://www.gnu.org/software/autoconf/">https://www.gnu.org/software/autoconf/</a></td>
+<td><a href="https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/GNU_Autoconf">Yes</a></td>
+<td><a href="https://packages.debian.org/unstable/autoconf-doc">autoconf-doc</a> !</td>
+</tr>
+<tr>
+<td><a href="https://github.com/lshprung/gnu-autoconf-archive-dash-docset">GNU Autoconf Archive</a></td>
+<td><a href="https://www.gnu.org/software/autoconf-archive/">https://www.gnu.org/software/autoconf-archive/</a></td>
+<td><a href="https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/GNU_Autoconf_Archive">Yes</a></td>
+<td><a href="https://packages.debian.org/unstable/autoconf-archive">autoconf-archive</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/lshprung/gnu-automake-dash-docset">GNU Automake</a></td>
+<td><a href="https://www.gnu.org/software/automake/">https://www.gnu.org/software/automake/</a></td>
+<td><a href="https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/GNU_Automake">Yes</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://github.com/lshprung/gnu-bash-dash-docset">GNU Bash</a></td>
+<td><a href="https://www.gnu.org/software/bash/">https://www.gnu.org/software/bash/</a></td>
+<td>No</td>
+<td><a href="https://packages.debian.org/unstable/bash-doc">bash-doc</a> !</td>
+</tr>
+<tr>
+<td>GNU Binutils [CONCEPT]</td>
+<td><a href="https://www.gnu.org/software/binutils/">https://www.gnu.org/software/binutils/</a></td>
+<td>No</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://github.com/lshprung/gnu-bison-dash-docset">GNU Bison</a> <strong>^</strong>3.8.2</td>
+<td><a href="https://www.gnu.org/software/bison/">https://www.gnu.org/software/bison/</a></td>
+<td><a href="https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/GNU_Bison">Yes</a></td>
+<td><a href="https://packages.debian.org/unstable/bison-doc">bison-doc</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/lshprung/gnu-libc-dash-docset">GNU C Library (or &quot;glibc&quot;)</a></td>
+<td><a href="https://www.gnu.org/software/libc/libc.html">https://www.gnu.org/software/libc/libc.html</a></td>
+<td>Pending (see PRs)</td>
+<td><a href="https://packages.debian.org/sid/glibc-doc-reference">glibc-doc-reference</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/lshprung/gnu-coding-standards-dash-docset">GNU Coding Standards</a> *</td>
+<td><a href="https://savannah.gnu.org/projects/gnustandards">https://savannah.gnu.org/projects/gnustandards</a></td>
+<td><a href="https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/GNU_Coding_Standards">Yes</a></td>
+<td><a href="https://packages.debian.org/unstable/gnu-standards">gnu-standards</a> !</td>
+</tr>
+<tr>
+<td><a href="https://github.com/lshprung/gnu-coreutils-dash-docset">GNU Coreutils</a> [WIP]</td>
+<td><a href="https://www.gnu.org/software/coreutils/">https://www.gnu.org/software/coreutils/</a></td>
+<td>No</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://github.com/lshprung/gnu-grub-dash-docset">GNU Grub</a> (4 docsets) [WIP]</td>
+<td><a href="https://www.gnu.org/software/grub/">https://www.gnu.org/software/grub/</a></td>
+<td>No</td>
+<td></td>
+</tr>
+<tr>
+<td>GNU Guile 3+ (maintainer only)</td>
+<td><a href="https://www.gnu.org/software/guile/">https://www.gnu.org/software/guile/</a></td>
+<td><a href="https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/GNU_Guile">Yes</a></td>
+<td></td>
+</tr>
+<tr>
+<td>GNU Guix [CONCEPT]</td>
+<td><a href="https://guix.gnu.org/">https://guix.gnu.org/</a></td>
+<td>No</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://github.com/lshprung/gnu-libtool-dash-docset">GNU Libtool</a> *</td>
+<td><a href="https://www.gnu.org/software/libtool/">https://www.gnu.org/software/libtool/</a></td>
+<td><a href="https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/GNU_Libtool">Yes</a></td>
+<td><a href="https://packages.debian.org/unstable/libtool-doc">libtool-doc</a> !</td>
+</tr>
+<tr>
+<td><a href="https://github.com/lshprung/gnu-texinfo-dash-docset">GNU Texinfo</a> (2 docsets) [WIP]</td>
+<td><a href="https://www.gnu.org/software/texinfo/">https://www.gnu.org/software/texinfo/</a></td>
+<td>No</td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://github.com/lshprung/meson-dash-docset">Meson</a></td>
+<td><a href="https://mesonbuild.com/index.html">https://mesonbuild.com/index.html</a></td>
+<td><a href="https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/Meson">Yes</a></td>
+<td></td>
+</tr>
+<tr>
+<td><a href="https://github.com/lshprung/ncurses-dash-docset">ncurses</a></td>
+<td><a href="https://invisible-island.net/ncurses/">https://invisible-island.net/ncurses/</a></td>
+<td><a href="https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/ncurses">Yes</a></td>
+<td><a href="https://packages.debian.org/unstable/ncurses-doc">ncurses-doc</a></td>
+</tr>
+<tr>
+<td><a href="https://github.com/lshprung/nsis-dash-docset">NSIS</a> [WIP]</td>
+<td><a href="https://nsis.sourceforge.io/">https://nsis.sourceforge.io/</a></td>
+<td>No</td>
+<td><a href="https://packages.debian.org/unstable/nsis-doc">nsis-doc</a></td>
+</tr>
+</tbody></table>
+<p>&#39;*&#39; indicates that the docset creation script could use improvement, usually in indexing index entries <br>&#39;<strong>^</strong>&#39; indicates that a new version needs to be packaged, uploaded to the releases tab of the repo, and pushed to Dash-User-Contributions <br>&#39;!&#39; indicates that the files this package ships do not match what the generation script expects (i.e., documentation is shipped as a single HTML file, as opposed to one HTML file for each node)</p>
+<p>Some docsets I do not intend to contribute to <a href="https://github.com/Kapeli/Dash-User-Contributions">Dash-User-Contributions</a>, usually because my docset diverges from one that was already contributed or there is already an official version of the docset:</p>
+<p>Some docsets are marked &quot;[WIP]&quot;. This indicates that some working model exists, but has not yet been successfully pushed to Dash-User-Contributions.</p>
+<p>Some docsets marked as &quot;[CONCEPT]&quot;. This indicates that I have desire to package in the future include.</p>
 <hr>
 <h4 id="regarding-gnu-project-docsets">Regarding GNU project docsets</h4>
 <p>It has been tiring to manage the high redundancy of the code in my various docset generation repos. This is especially true among GNU project docsets, and I believe it would be beneficial to contain all of these in a single repo. A few things to note:</p>
