@@ -11,6 +11,7 @@ Dash docsets maintained by me include:
 - [GNU Autoconf Archive](https://github.com/lshprung/gnu-autoconf-archive-dash-docset) ([upstream](https://www.gnu.org/software/autoconf-archive/))
 - [GNU Automake](https://github.com/lshprung/gnu-automake-dash-docset) ([upstream](https://www.gnu.org/software/automake/))
 - [GNU Bison](https://github.com/lshprung/gnu-bison-dash-docset) ([upstream](https://www.gnu.org/software/bison/)) **^**3.8.2
+- [GNU C Library (or "glibc")](https://github.com/lshprung/gnu-libc-dash-docset) ([upstream](https://www.gnu.org/software/libc/libc.html))
 - [GNU Coding Standards](https://github.com/lshprung/gnu-coding-standards-dash-docset) ([upstream](https://savannah.gnu.org/projects/gnustandards)) \*
 - [GNU Guile](https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/GNU_Guile) 3+ ([upstream](https://www.gnu.org/software/guile/))
 - [GNU Libtool](https://github.com/lshprung/gnu-libtool-dash-docset) ([upstream](https://www.gnu.org/software/libtool/)) \*
@@ -23,7 +24,6 @@ Dash docsets maintained by me include:
 I also have several unofficial Dash docsets that I maintain, but do not intend to contribute to [Dash-User-Contributions](https://github.com/Kapeli/Dash-User-Contributions), usually because my docset diverges from one that was already contributed or there is already an official version of the docset:
 
 - [GNU Bash](https://github.com/lshprung/gnu-bash-dash-docset) ([upstream](https://www.gnu.org/software/bash/))
-- [GNU C Library (or "glibc")](https://github.com/lshprung/gnu-libc-dash-docset) ([upstream](https://www.gnu.org/software/libc/libc.html))
 
 Additional docsets I have desire to package in the future include:
 
