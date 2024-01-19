@@ -15,7 +15,7 @@ Dash docsets maintained by me include:
 |[GNU Bash](https://github.com/lshprung/gnu-bash-dash-docset)|<https://www.gnu.org/software/bash/>|No|[bash-doc](https://packages.debian.org/unstable/bash-doc) \!|
 |GNU Binutils [CONCEPT]|<https://www.gnu.org/software/binutils/>|No||
 |[GNU Bison](https://github.com/lshprung/gnu-bison-dash-docset) **^**3.8.2|<https://www.gnu.org/software/bison/>|[Yes](https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/GNU_Bison)|[bison-doc](https://packages.debian.org/unstable/bison-doc)|
-|[GNU C Library (or "glibc")](https://github.com/lshprung/gnu-libc-dash-docset)|<https://www.gnu.org/software/libc/libc.html>|Pending (see PRs)|[glibc-doc-reference](https://packages.debian.org/sid/glibc-doc-reference)|
+|[GNU C Library (or "glibc")](https://github.com/lshprung/gnu-libc-dash-docset)|<https://www.gnu.org/software/libc/libc.html>|[Yes](https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/glibc)|[glibc-doc-reference](https://packages.debian.org/sid/glibc-doc-reference)|
 |[GNU Coding Standards](https://github.com/lshprung/gnu-coding-standards-dash-docset) \*|<https://savannah.gnu.org/projects/gnustandards>|[Yes](https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/GNU_Coding_Standards)|[gnu-standards](https://packages.debian.org/unstable/gnu-standards) \!|
 |[GNU Coreutils](https://github.com/lshprung/gnu-coreutils-dash-docset) [WIP]|<https://www.gnu.org/software/coreutils/>|No||
 |[GNU Grub](https://github.com/lshprung/gnu-grub-dash-docset) (4 docsets) [WIP]|<https://www.gnu.org/software/grub/>|No||
