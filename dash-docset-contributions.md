@@ -20,7 +20,7 @@ Dash docsets maintained by me include:
 |[GNU Coreutils](https://github.com/lshprung/gnu-coreutils-dash-docset) [WIP]|<https://www.gnu.org/software/coreutils/>|No||
 |[GNU Grub](https://github.com/lshprung/gnu-grub-dash-docset) (4 docsets) [WIP]|<https://www.gnu.org/software/grub/>|No||
 |GNU Guile 3+ (maintainer only)|<https://www.gnu.org/software/guile/>|[Yes](https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/GNU_Guile)||guile-3.0-doc (and guile-2.2-doc) do not ship with html sources|
-|GNU Guix [CONCEPT]|<https://guix.gnu.org/>|No||
+|[GNU Guix](https://github.com/lshprung/gnu-guix-dash-docset)|<https://guix.gnu.org/>|No||
 |[GNU Libtool](https://github.com/lshprung/gnu-libtool-dash-docset) \*|<https://www.gnu.org/software/libtool/>|[Yes](https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/GNU_Libtool)|[libtool-doc](https://packages.debian.org/unstable/libtool-doc) \!|
 |[GNU Make](https://github.com/lshprung/gnu-make-dash-docset)|<https://www.gnu.org/software/make/>|[Yes](https://github.com/Kapeli/Dash-User-Contributions/tree/master/docsets/GNU_Make)|[make-doc](https://packages.debian.org/unstable/make-doc)|
 |[GNU Texinfo](https://github.com/lshprung/gnu-texinfo-dash-docset) (2 docsets) [WIP]|<https://www.gnu.org/software/texinfo/>|No||
